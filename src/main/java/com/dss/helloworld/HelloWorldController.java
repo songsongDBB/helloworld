@@ -10,4 +10,9 @@ public class HelloWorldController {
 	public String sayHello() {
 		return "hello world";
 	}
+	
+	@GetMapping(value = "sayHi")
+	public String sayHi() {
+		return "Hi World";
+	}
 }
